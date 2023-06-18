@@ -1,0 +1,11 @@
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\bin\Release\SALES.exe.config
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\bin\Release\SALES.exe
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\bin\Release\SALES.pdb
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.csproj.AssemblyReference.cache
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.csproj.SuggestedBindingRedirects.cache
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.Properties.Resources.resources
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.Sales.resources
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.csproj.GenerateResource.cache
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.csproj.CoreCompileInputs.cache
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.exe
+C:\Users\maton\source\repos\maton111\Greenext\SALES\SALES\SALES\obj\Release\SALES.pdb
