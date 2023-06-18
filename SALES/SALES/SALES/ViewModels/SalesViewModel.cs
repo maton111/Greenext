@@ -20,7 +20,7 @@ namespace SALES.ViewModels
         {
             if (input == "")
             {
-                return "Please insert input";
+                return "Please insert input.";
             }
 
             try
@@ -51,14 +51,25 @@ namespace SALES.ViewModels
             {
                 string[] salesSplitted = sales.Split(' ');
 
-                if (int.Parse(salesSplitted[0]) == 0)
+                if (int.Parse(salesSplitted[0]) <= 0)
                 {
-                    throw new Exception("Non inserire 0 come quantità del prodotto.");
+                    throw new Exception("Please do not insert numbers below 0 as the product quantity.");
                 }
 
-                int quantity = int.Parse(salesSplitted[0]);
+                int.TryParse(salesSplitted[0], out int quantity);
+                if (quantity == 0)
+                {
+                    throw new Exception("Please check if you inserted the quantity as the first value.");
+                }
+
                 bool imported = sales.Contains("imported") == true ? true : false;
-                decimal price = decimal.Parse(salesSplitted[salesSplitted.Length - 1].Replace(".", ","));
+
+                decimal.TryParse(salesSplitted[salesSplitted.Length - 1].Replace(".", ","), out decimal price);
+                if (price <= 0)
+                {
+                    throw new Exception("Please check if you inserted the price as the last value.");
+                }
+
                 string objectString = sales.Replace(salesSplitted[0] + " ", "")
                                            .Replace(salesSplitted[salesSplitted.Length - 1], "")
                                            .Replace(" at ", "");
