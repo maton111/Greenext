@@ -17,3 +17,11 @@ You can add more than one row. Then press the button "CALCULATE SALES TAXES".
 
 **IMPORTANT:** Note that if you need any help or instructions while using the application you can find 
 two buttons with "?" that will assist you through the usage.
+
+## How to see the code
+
+1. Download Visual Studio 2022.
+2. Clone the repository on your device by Visual Studio 2022.
+3. Open the directory "Greenext\SALES\SALES".
+4. Execute "SALES.sln" by Visual Studio 2022.
+5. You will find the whole project organized in folders.
