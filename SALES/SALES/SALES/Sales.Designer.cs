@@ -33,6 +33,8 @@
             this.labelOutput = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.RichTextBox();
             this.submit = new System.Windows.Forms.Button();
+            this.inputInfo = new System.Windows.Forms.Button();
+            this.outputInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelInput
@@ -95,12 +97,42 @@
             this.submit.UseVisualStyleBackColor = false;
             this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
+            // inputInfo
+            // 
+            this.inputInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(109)))), ((int)(((byte)(130)))));
+            this.inputInfo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.inputInfo.Font = new System.Drawing.Font("Franklin Gothic Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inputInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.inputInfo.Location = new System.Drawing.Point(747, 7);
+            this.inputInfo.Name = "inputInfo";
+            this.inputInfo.Size = new System.Drawing.Size(25, 25);
+            this.inputInfo.TabIndex = 5;
+            this.inputInfo.Text = "?";
+            this.inputInfo.UseVisualStyleBackColor = false;
+            this.inputInfo.Click += new System.EventHandler(this.inputInfo_Click);
+            // 
+            // outputInfo
+            // 
+            this.outputInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(109)))), ((int)(((byte)(130)))));
+            this.outputInfo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.outputInfo.Font = new System.Drawing.Font("Franklin Gothic Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.outputInfo.Location = new System.Drawing.Point(747, 198);
+            this.outputInfo.Name = "outputInfo";
+            this.outputInfo.Size = new System.Drawing.Size(25, 25);
+            this.outputInfo.TabIndex = 6;
+            this.outputInfo.Text = "?";
+            this.outputInfo.UseVisualStyleBackColor = false;
+            this.outputInfo.Click += new System.EventHandler(this.outputInfo_Click);
+            // 
             // Sales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.outputInfo);
+            this.Controls.Add(this.inputInfo);
             this.Controls.Add(this.submit);
             this.Controls.Add(this.output);
             this.Controls.Add(this.labelOutput);
@@ -126,6 +158,8 @@
         private System.Windows.Forms.Label labelOutput;
         private System.Windows.Forms.RichTextBox output;
         private System.Windows.Forms.Button submit;
+        private System.Windows.Forms.Button inputInfo;
+        private System.Windows.Forms.Button outputInfo;
     }
 }
 
